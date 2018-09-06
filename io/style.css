@@ -1,0 +1,90 @@
+
+    
+
+.hero-image  {
+    position: relative;
+    max-height: 500px;
+    overflow: hidden;
+    width: 100%;
+    
+
+}
+
+.background-img {
+    width: 100%;
+}
+.hero-image:before{
+    content: '';
+    display: block;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.first {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.social {
+    text-align: center;
+    color: #e76d89;
+    padding-right: 10px;
+}
+.social li a {
+    color: #c7873a;
+}
+.first li{
+    display: inline;
+}
+.headshot {
+    position: relative;
+    color: #c7873a;
+    text-align: center;
+    border: 2px solid #c7873a;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about1 {
+    background-color:#c7873a;
+    text-align: center;
+    color: #096972;
+    
+}
+.about {
+    background-color: #096972;
+    text-align: center;
+    color: #c7873a;
+
+
+}
+.about li{
+    display: inline;
+
+}
+.projects {
+    background-color:#096972;
+    text-align: center;
+    color: #c7873a;
+    
+}
+.projects li{
+    list-style: none;
+    float: right 20px;
+}
+.contact {
+    background-color:#c7873a;
+    text-align: center;
+    color: #096972;
+}
+.contact li {
+    list-style: none;
+}
+h2 {
+    color: rgb(58, 58, 58);
+}
