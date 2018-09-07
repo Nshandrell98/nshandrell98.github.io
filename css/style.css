@@ -74,10 +74,13 @@ body{
     color: #c7873a;
     
 }
+
 .projects li{
     list-style: none;
-    float: right 10px;
+    text-align: center;
     margin: 10px;
+    margin-left: 20px;
+
 }
 .projects li a {
     background-color: #c7873a;
