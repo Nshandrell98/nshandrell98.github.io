@@ -1,0 +1,109 @@
+<html>
+<head>
+    <title>Nekiedra's Pizzeria</title> 
+    <link href="css/basic.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <h1 id="top">Nekiedra's Pizzeria</h1>
+    <a href="#order_now">Order Now</a>
+    <h3>Home of the most delicious pizza in the class!</h3>
+    <p>Login</p>
+    <form action="http://www.example.com/login/" method="post">
+        <!--Username and Password-->
+        <label for="username">Username:</label> 
+        <input type="text" name="username" required="required" />
+        <!--Why does this have to be required-->
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" required="required" />
+        <input type="submit" value="Submit" />
+    </form>
+    <h4>Take a look at some of our tasty choices</h4>
+    <hr />
+    <img src="images/pizza.png" style width="500" height="400" />
+    <img src="images/pizza2.jpg" style width="500" height="400" />
+    <img src="images/pizza3.png" style width="500" height="400" />
+    <hr />
+    <p>Now look at this short video</p>
+    <iframe width="500" height="400" src="https://www.youtube.com/embed/7S9ReKGxGMs" frameborder="2" allow="autoplay; encrypted-media"
+        allowfullscreen></iframe>
+    <hr />
+    <h3>Prices</h3>
+    <table class='Table' style width="1200">
+        <tr>
+            <th>Size</th>
+            <th>1 topping</th>
+            <th>2 toppings</th>
+            <th>3 toppings</th>
+            <th>4 toppings</th>
+        </tr>
+        <tr>
+            <td>
+                <b>Small</b>
+            </td>
+            <td>5.99</td>
+            <td>6.49</td>
+            <td>6.99</td>
+            <td>7.49</td>
+        </tr>
+        <tr>
+            <td>
+                <b>Medium</b>
+            </td>
+            <td>7.99</td>
+            <td>8.49</td>
+            <td>8.99</td>
+            <td>9.49</td>
+        </tr>
+        <tr>
+            <td>
+                <b>Large</b>
+            </td>
+            <td>9.99</td>
+            <td>10.49</td>
+            <td>10.99</td>
+            <td>11.49</td>
+        </tr>
+    </table>
+    <hr />
+    <h3 id="order_now">ORDER HERE</h3>
+    <form action="http://www.example.com/profile.php">
+        <!--Radio button-->
+        <p>Will you be dining in or carrying out?</p>
+        <br>
+        <input type="radio" value="Take-out" /> Carryout
+        <input type="radio" value="Dine in" /> Dine-In
+
+        <p>What size pizza would you like?</p>
+        <select name="format">
+            <option value="Small"> Small </option>
+            <option value="Medium"> Medium</option>
+            <option value="Large"> Large</option>
+            <option value="Ex-Large" /> Extra Large </option>
+        </select>
+        <p> What toppings would you like?</p>
+        <select name="format" multiple="multiple">
+            <option value="cheese">Cheese</option>
+            <option value="pepperoni">Pepperoni</option>
+            <option value="sausage">Sausage</option>
+            <option value="bacon">Bacon</option>
+            <option value="beef">Beef</option>
+            <option value="spinach">Spinach</option>
+            <option value="ham">Ham</option>
+            <option value="chicken">Chicken</option>
+            <option value="tomatoes">Tomatoes</option>
+            <option value="Onions">Onions</option>
+            <option value="red peppers">Red Peppers</option>
+            <option value="green peppers">Green Peppers</option>
+            <option value="Pineapple">Pineapple</option>
+            <option value="mushhroom">Mushroom</option>
+            <option value="olive">Olive</option>
+        </select>
+        <p>Special instructions</p>
+        <textarea name="comments" col="20" rows="3">...</textarea>
+        <br>
+        <input type="submit" value="Submit" />
+    </form>
+    <a href="#top">top</a>
+</body>
+</html>

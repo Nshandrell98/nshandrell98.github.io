@@ -1,0 +1,50 @@
+.main {
+    background-color: blueviolet;
+    width: 300px;
+    height: 300px;
+    margin: 50px;e
+    padding: 25px;
+    border:
+}
+
+.block1 {
+    background-color: rgb(226, 162, 43);
+    width: 50px;
+    height: 50px;
+    color: rgb(0, 73, 39);
+    text-align: center;
+    font-size: 34;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.block2 {
+    background-color: crimson;
+    width: 50px;
+    height: 50px;
+    color: black;
+    text-align: center;
+    font-size: 34;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+}
+
+.block3 {
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    color: brown;
+    text-align: center;
+    font-size: 34;
+}
+
+.block4 {
+    background-color: khaki;
+    width: 50px;
+    height: 50px;
+    color: brown;
+    text-align: center;
+    font-size: 34;
+}
