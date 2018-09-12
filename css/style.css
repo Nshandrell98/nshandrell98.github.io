@@ -38,27 +38,27 @@ body{
     padding-right: 10px;
 }
 .social li a {
-    color: #c7873a;
+    color: #854e66;
 }
 .first li{
     display: inline;
  }
 .headshot {
     position: relative;
-    color: #c7873a;
+    color: #686868;
     text-align: center;
-    border: 2px solid #c7873a;
+    border: 2px solid #686868;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 .about1 {
-    background-color:#c7873a;
+    background-color: #854e66;
     text-align: center;
-    color: #096972;
+    color: #132233;
     
 }
 .about {
-    background-color: #096972;
+    background-color: #132233;
     text-align: center;
     color: #2e2e2e;
 
@@ -69,12 +69,15 @@ body{
 
 }
 .projects {
-    background-color:#096972;<!--blue-->
+    background-color: #132233;
     text-align: center;
-    color: #c7873a;<!--orange-->
+    color: #854e66;
     
 }
-
+.projects h2 img {
+    position: absolute;
+    right: 20px;
+}
 .projects li{
     list-style: none;
     text-align: center;
@@ -83,16 +86,16 @@ body{
 
 }
 .projects li a {
-    background-color: #c7873a;
+    background-color: #854e66;
     padding: 5px;
     margin-top: 10px;
     border-radius: 10px;
     color: black;
 }
 .contact {
-    background-color:#c7873a;
+    background-color: #854e66;
     text-align: center;
-    color: #096972;
+    color: #132233;
 }
 .contact li {
     list-style: none;
