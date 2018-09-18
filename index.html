@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick/slick.js">
+    <link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css">
   </head>
 
 <body>
@@ -24,13 +27,9 @@
           
         </div>  
         <div>
-          <ul>
-            <li><a href="about">ABOUT</a></li>
-            <li><a href="projects">PROJECTS</a></li>
-            <li><a href="contact">CONTACT</a></li>
-          </ul>
-        </div>/gggg5 k53
-      </div>iu/
+          
+        </div>
+      </div>
     </div>
   </div>
   <div class="about" >
@@ -41,6 +40,11 @@
             <li><a href="https://www.facebook.com/nekiedra.singleton?ref=bookmarks"><i class="fab fa-facebook" ></i></a></li>
             <li><a href="https://github.com/Nshandrell98"><i class="fab fa-github"></i></a></li>
             <li><a href="https://www.linkedin.com/in/nekiedra-s-bb44168b/"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+          <ul class="apc">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
           </ul>
         </div>
       </div>
@@ -56,7 +60,7 @@
       </div>
     </div>
   </div>
-  <div class="projects">
+  <div class="projects" id="projects">
     <div class="container">
       <div class="row">
         <div class="col-sm-offset-2 col-sm-10">
@@ -64,12 +68,14 @@
             <div class="col-sm-10">
               <h2>My Projects</h2>
               <p>Below is a list of projects that I have done.</p>
-              <ul class="propic">
-                <li><img class="img-responsive" src="images/detroix.png"/></li>
+              <div class="propic slider">
+                <img class="img-responsive" src="images/detroix.png"/>
+                <img class="img-responsive" src="images/vendor.png"/> 
+                <img class="img-responsive" src="images/pizza.png"/>
+              </div>  
+              <ul>
                 <li><a href="https://nshandrell98.github.io/960_project/"> Detroix Project</a></li>
-                <li><img class="img-responsive" src="images/vendor.png"/></li>
                 <li><a href="https://nshandrell98.github.io/bootstrap_project/">Vendor Project</a></li>
-                <li><img class="img-responsive" src="images/pizza.png"/></li>
                 <li><a href="Basic.Css/basiccss.html"> Pizza Project</a></li>
               </ul>
             </div>
@@ -78,7 +84,7 @@
       </div>
     </div>
   </div>
-  <div class="contact">
+  <div class="contact" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-sm-offset-1 col-sm-10">
@@ -102,6 +108,21 @@
       </div>
     </div>
   </div>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script> 
+    $('.slider').slick({
+        })
+    $(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+   
+});
+  </script>
 </body>
 </html>
          
