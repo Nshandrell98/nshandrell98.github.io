@@ -22,3 +22,6 @@ img {
 .Table table{
     text-align: center;
 }
+.prlink li a{
+    display: inline;
+}

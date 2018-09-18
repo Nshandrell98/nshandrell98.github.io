@@ -90,7 +90,7 @@ body{
     text-align: center;
     margin: 10px;
     margin-left: 20px;
-
+    display: inline;
 }
 .projects li a {
     background-color: #854e66;
@@ -98,6 +98,10 @@ body{
     margin-top: 10px;
     border-radius: 10px;
     color: black;
+    display: inline-block;
+}
+.prlink li a{
+    display: inline-block;
 }
 .contact {
     background-color: #854e66;
