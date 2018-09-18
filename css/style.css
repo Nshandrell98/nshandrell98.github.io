@@ -39,7 +39,9 @@ body{
     left: 0;
     transform: translateY(-50%);
 }
-
+.img-circle{
+    margin: -100px auto 5px; 
+}
 .social {
     text-align: center;
     padding-right: 10px;
