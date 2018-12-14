@@ -54,7 +54,7 @@ body{
  }
 .headshot {
     position: relative;
-    color: #686868;
+    color: rgba(197, 190, 109, 1);
     text-align: center;
     border: 2px solid #686868;
     margin-top: 20px;
@@ -114,5 +114,5 @@ body{
     list-style: none;
 }
 h2 {
-    color: rgb(58, 58, 58);
+    color: rgba(197, 190, 109, 1);
 }
