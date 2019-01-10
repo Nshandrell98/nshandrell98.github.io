@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    background: #ccc;
+} 
+.outside {
+    background: #ccc;
+}
+.gamepiece {
+    height: 600px;
+    width: 600px;
+    background-color: rgb(118, 255, 171);
+    border: 2px solid burlywood;
+}
+.tile {
+    height: calc(100% /3);
+    width:  calc(100% /3);
+    background-color: rgb(253, 250, 156);
+    border: 1px solid burlywood;
+    float: left;
+}
+.miss {
+    background: red;
+}
+.success {
+    background: green;
+}
+.battleship {
+    background: transparent url("../images/battleship.png") no-repeat;
+    background-size: contain;
+}
