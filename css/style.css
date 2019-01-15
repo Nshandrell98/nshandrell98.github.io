@@ -77,6 +77,10 @@ body{
     display: inline;
 
 }
+.resume{
+    background-color: #2e2e2e;
+    color: #132233;
+}
 .projects {
     background-color: #132233;
     text-align: center;
