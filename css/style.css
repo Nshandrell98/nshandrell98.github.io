@@ -72,14 +72,16 @@ body{
     color: #2e2e2e;
 
 
-}
+;
 .about li{
     display: inline;
 
 }
 .resume{
-    background-color: #2e2e2e;
-    color: #132233;
+    background-color: #132233 ;
+}
+.resume a {
+    color: rgba(190, 75, 182, 1);
 }
 .projects {
     background-color: #132233;
