@@ -64,13 +64,13 @@ body{
     background-color: rgba(190, 75, 182, 1);
     text-align: center;
     color: #132233;
-    
+    padding-bottom: 10px;
 }
 .about {
     background-color: #132233;
     text-align: center;
     color: #2e2e2e;
-    padding-bottom: 15px;
+    
 }
 .about li{
     display: inline;
