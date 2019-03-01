@@ -78,6 +78,7 @@ body{
 .resume{
     background-color: #132233 ;
     border-radius: 10px;
+    padding: 5px;
 }
 .resume a {
     color: rgba(190, 75, 182, 1);
