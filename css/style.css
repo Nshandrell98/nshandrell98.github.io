@@ -13,7 +13,7 @@ body{
 }
 .apc li a{
     background-color: rgba(190, 75, 182, 1);
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
     color: #132233;
     text-decoration: none;
@@ -81,6 +81,8 @@ body{
 }
 .resume a {
     color: rgba(190, 75, 182, 1);
+    padding: 5px;
+    border-radius: 10px;
 }
 .projects {
     background-color: #132233;
