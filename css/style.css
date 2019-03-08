@@ -66,14 +66,9 @@ body{
     color: #132233;
     padding-bottom: 10px;
 }
-.about {
-    background-color: #132233;
-    text-align: center;
-    color: #2e2e2e;
-    
-}
 .about li{
     display: inline;
+    color:rgba(190, 75, 182, 1);
 
 }
 .resume{
