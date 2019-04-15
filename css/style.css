@@ -65,14 +65,13 @@ body{
     margin-bottom: 40px;
 }
 .about1 {
-    background-color: #fff;
+    background-color: #000;
     text-align: center;
     color: #132233;
     padding-bottom: 10px;
 }
 .about li{
     display: inline;
-    color:rgba(190, 75, 182, 1);
 
 }
 .resume{
@@ -80,8 +79,7 @@ body{
     border-radius: 10px;
     padding: 5px;
     background-color: rgba(197, 190, 109, 1);
-    color: rgba(190, 75, 182, 1);
-} 
+  } 
 /* .resume a {
     
     padding: 5px;
@@ -118,7 +116,7 @@ body{
     display: inline-block;
 }
 .contact {
-/*     background-color: rgba(190, 75, 182, 1); */
+    background-color: #000;
     text-align: center;
     color: #132233;
 }
