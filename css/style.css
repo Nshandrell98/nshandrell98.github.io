@@ -126,10 +126,10 @@ body{
 .contact li {
     list-style: none;
 }
-h2 {
+h2 p h3{
     color: rgba(197, 190, 109, 1);
 }
-p h3{
-    color: #132233;
-  
+{
+/*     color: #132233;
+   */
 }
