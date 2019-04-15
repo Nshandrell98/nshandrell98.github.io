@@ -2,10 +2,10 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #132233;
 }
-p h3{
+/* p h3{
     color: #132233;
   
-}
+} */
 
 .hero-image  {
     position: relative;
@@ -128,4 +128,8 @@ p h3{
 }
 h2 {
     color: rgba(197, 190, 109, 1);
+}
+p h3{
+    color: #132233;
+  
 }
