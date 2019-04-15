@@ -65,7 +65,7 @@ body{
     margin-bottom: 40px;
 }
 .about1 {
-    background-color: #000;
+    background-color: #280000;
     text-align: center;
     color: #132233;
     padding-bottom: 10px;
@@ -80,15 +80,15 @@ body{
     padding: 5px;
     background-color: rgba(197, 190, 109, 1);
   } 
-/* .resume a {
+.resume a {
     
     padding: 5px;
     border-radius: 10px;
     margin: 10px;
    
-} */
+}
 .projects {
-    background-color: #000;
+    background-color: #280000;
     text-align: center;
     color: #132233;
     
@@ -116,7 +116,7 @@ body{
     display: inline-block;
 }
 .contact {
-    background-color: #000;
+    background-color: #280000;
     text-align: center;
     color: #132233;
 }
