@@ -2,10 +2,10 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #132233;
 }
-/* p h3{
-    color: #132233;
+p h3{
+    color: rgba(197, 190, 109, 1)
   
-} */
+}
 
 .hero-image  {
     position: relative;
@@ -19,7 +19,7 @@ body{
     background-color: rgba(197, 190, 109, 1);
     padding: 5px;
     border-radius: 10px;
-    color: #132233;
+/*     color: #132233; */
     text-decoration: none;
 }
 .apc{
@@ -70,7 +70,7 @@ body{
 .about1 {
     background-color: #280000;
     text-align: center;
-    color: #132233;
+/*     color: #132233; */
     padding-bottom: 10px;
 }
 .about li{
@@ -93,7 +93,7 @@ body{
 .projects {
     background-color: #280000;
     text-align: center;
-    color: #132233;
+/*     color: #132233; */
     
 }
 .projects h2 img {
@@ -121,7 +121,7 @@ body{
 .contact {
     background-color: #280000;
     text-align: center;
-    color: #132233;
+/*     color: #132233; */
 }
 .contact li {
     list-style: none;
