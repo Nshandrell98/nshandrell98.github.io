@@ -8,106 +8,107 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="slick/slick/slick.js">
     <link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css">
   </head>
 
 <body>
-  
-  <div class="hero-image" >
-    <div> 
-      <img id="top" class="img-responsive background-img" src="images/lights.jpg"/>
-    </div>
-    <div class="first container">
+  <div class="first">
+    <div class="container">
       <div class="row">
-        <div class="headshot col-sm-offset-1 col-sm-10">
-          <img class="img-circle" src="images/linkedin.jpg"/>         
+        <div class="col-sm-12" >        
           <h1 >Nekiedra Singleton</h1>
           <p>Junior Software Developer</p>
           <ul class="social">
-            <li><a href="https://www.facebook.com/nekiedra.singleton?ref=bookmarks"><i class="fab fa-facebook" ></i></a></li>
-            <li><a href="https://github.com/Nshandrell98"><i class="fab fa-github"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/nekiedra-s-bb44168b/"><i class="fab fa-linkedin"></i></a></li>
+            <li><a target="_blank" href="https://www.facebook.com/nekiedra.singleton?ref=bookmarks"><i class="fab fa-facebook" ></i></a></li>
+            <li><a target="_blank" href="https://github.com/Nshandrell98"><i class="fab fa-github"></i></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/nekiedra-s-bb44168b/"><i class="fab fa-linkedin"></i></a></li>
           </ul>
-          <ul class="apc">
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#projects">PROJECTS</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-          </ul>
-        </div>  
-        <div>
-          
         </div>
       </div>
     </div>
   </div>
   <div class="about1" id="about">
-    <div class="container">
+    <div class="container tp">
       <div class="row">
-        <div class="col-sm-offset-1 col-sm-10">
+        <div class="col-sm-12">
           <h2>About Me</h2>
-          <p>Graduate from Mississippi Coding Acedemy skilled in Python, JavaScript, HTML,CSS, SQL, and currently learning React. </p>
-          <a class="resume" href="https://docs.google.com/document/d/1KBND-F2mN_otXLUKNyot6QWbkn9ix4JurBiHjegXK_U/edit?usp=sharing">MY RESUME</a>
+          <p>Graduate from Mississippi Coding Acedemy skilled in Python, JavaScript, HTML,CSS, SQL, and currently learning  PHP and React. </p>
+          <a class="resume" target="_blank" href="https://docs.google.com/document/d/1KBND-F2mN_otXLUKNyot6QWbkn9ix4JurBiHjegXK_U/edit?usp=sharing">MY RESUME</a>
         </div>
       </div>
     </div>
   </div>
   <div class="projects" id="projects">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-offset-2 col-sm-10">
-          <div class="row">
-            <div class="col-sm-10">
-              <h2>My Projects</h2>
-              <p>Below is a display of some of my projects that I have been working on</p>
-              <h3>JavaScript Projects</h3>
-              <div class="propic slider">
-                <img class="img-responsive" src="images/StarScreenshot.png"/>
-                <img class="img-responsive" src="images/atm.png"/>
-                <img class="img-responsive" src="images/battleship.png"/>
-              </div>
-              <ul class="prlinks">
-                <li><a href="https://nshandrell98.github.io/ATM/actualATM%20(1)%20(1).html">ATM Project</a></li>
-                <li><a href="battleship/battleship.html">Battleship Project</a></li>
-                <li><a href="https://nshandrell98.github.io/Rental-Project/rental_Index.html">Rental Project</a></li>
-              </ul>
-              <h3>HTML and CSS Projects</h3>
-              <div class="propic slider">
-                <img class="img-responsive" src="images/detroix.png"/>
-                <img class="img-responsive" src="images/vendor.png"/> 
-                <img class="img-responsive" src="images/restaurant.png"/>
-              </div>
-              <ul class="prlinks">
-                <li><a href="https://nshandrell98.github.io/960_project/"> Detroix Project</a></li>
-                <li><a href="https://nshandrell98.github.io/bootstrap_project/">Vendor Project</a></li>
-                <li><a href="https://nshandrell98.github.io/restaurant/"> Restaurant Project</a></li>
-              </ul>
-            </div>
-          </div>
+    <div class="container tp">
+      <h2>My Projects</h2>
+      <p>You can view full projects at my github here at <a href="https://github.com/Nshandrell98">https://github.com/Nshandrell98</a>.</p>
+      <div class="pt row">
+        <div class="col-sm-5">
+          <img class="img-responsive" src="images/atm.png"/>
+        </div>
+        <div class="desc right col-sm-7">
+          <h3>ATM Project</h3>
+          <p>This project was built using HTML, CSS, and JavaScript. It has a one step login taking only pin number. Features include withdraw, deposit, and check balance options.</p>
+          <a class="prBtn" target="_blank" href="https://nshandrell98.github.io/ATM/actualATM%20(1)%20(1).html">VIEW PROJECT</a>
+        </div>
+      </div>
+      <div class="pt row">
+        <div class="desc left col-sm-7">
+          <h3>Rental Project</h3>
+          <p>This project consists a fictional rental company in which I made an API and database using SQL to manage and keep track of inventory and then broke down the HTML using React.</p>
+          <a class="prBtn" target="_blank" href="https://nshandrell98.github.io/Rental-Project/rental_Index.html">VIEW PROJECT</a>
+        </div>
+        <div class="col-sm-5">
+          <img class="img-responsive" src="images/StarScreenshot.png"/>
+        </div>
+      </div>
+      <div class="pt row">  
+        <div class="col-sm-5">
+          <img class="img-responsive" src="images/battleship.png"/>
+        </div>
+        <div class="desc right col-sm-7">
+          <h3>Battleship Project</h3>
+          <p>One player battleship game where computer's place is generated by a random number,  and its shots are fired randomly until it hits the coordinates matching the square player 1 choses.</p>
+          <a class="prBtn" target="_blank" href="battleship/battleship.html">VIEW PROJECT</a>
+        </div>
+      </div>
+      <div class="pt row">
+        <div class="desc left col-sm-7">
+          <h3>Restaurant Project</h3>
+          <p> Responsive static HTML/CSS project ucing bootstrap given a jpg image to duplicate.</p>
+          <a class="prBtn" target="_blank" href="https://nshandrell98.github.io/restaurant/">VIEW PROJECT</a>
+        </div>
+        <div class="col-sm-5">
+          <img class="img-responsive" src="images/restaurant.png"/>
+        </div>
+      </div>
+      <div class="pt row">  
+        <div class="col-sm-5">
+          <img class="img-responsive" src="images/detroix.png"/>
+        </div>
+        <div class="desc right col-sm-7">
+          <h3>Detroix Project</h3>
+          <p>Static HTML/CSS projrct using the 960 grid given a jpg image to duplicate.</p>
+          <a class="prBtn" target="_blank" href="https://nshandrell98.github.io/960_project/">VIEW PROJECT</a>
         </div>
       </div>
     </div>
   </div>
   <div class="contact" id="contact">
-    <div class="container">
+    <div class="container tp">
       <div class="row">
-        <div class="col-sm-offset-1 col-sm-10">
-          <div class="row">
-            <div class="col-sm-12">
-              <h2>Contact Info</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-12">
-              <ul>
-                <li class="phone"><i class="fas fa-phone"></i>(601)287-2671
-                <li class="email"><i class="fas fa-envelope"></i>nekiedrasingleton@gmail.com
-                </li>
-              </ul>
-              <a href="#top">top</a>
-            </div>
-          </div>
+        <div class="col-sm-12">
+          <h2>Contact Info</h2>
+          <ul>
+            <li><i class="fas fa-phone"></i>(601)287-2671</li>
+            <li><i class="fas fa-envelope"></i>nekiedrasingleton@gmail.com
+            </li>
+          </ul>
+          <a href="#top">top</a>
         </div>
       </div>
     </div>
