@@ -55,9 +55,9 @@ li{
     background-color: rgba(228, 228, 228, 0.657);
 }
 .pt{
-    /* height: 200px; */
     margin-top: 20px;
-    
+    margin-bottom: 10px;
+/* border: solid 2px blue; */
 }
 .right{
     margin-right: 5px;
@@ -81,4 +81,9 @@ li{
     color: rgb(33, 30, 61);
     border-radius: 10px;
 }
-
+.contact li{
+    margin-right: 10px;
+}
+.contact i{
+    margin-right: 5px;
+}
